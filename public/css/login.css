@@ -1,0 +1,51 @@
+.formulario-login{
+    max-width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+input, button{
+    border-radius: 6px;
+    margin-block: 0.5rem;
+    height: 2rem;;
+}
+
+input::placeholder{
+    padding-left: 0.5rem;
+   
+}
+
+.boton-enviar{
+    border:solid 0px;
+    background-color: #1259c3;
+    color:#fff;
+    transition: 0.25ms;
+}
+.boton-enviar:hover{
+
+    background-color: #0022AA;
+    color: #fff;
+
+}
+
+.boton-volver{
+    border:solid 0px;
+    background-color: #1259c3;
+    color:#fff;
+    opacity: 0.8;
+}
+
+.boton-volver a:link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+
+    
+}
+
+.boton-volver a:visited {
+    color: #fff;
+    
+}

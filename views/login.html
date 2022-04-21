@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="/css/login.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<header>
+  <div class="header_logoSearchDesktop_container">
+    <div class="header_logoSearch_container">
+      <img class="header_logo" src="./images/logo-mercado-liebre.svg" alt="Mercado liebre" />
+      <div class="header_searchBar_container">
+        <form class="search-form" action="/search" method="GET">
+          <input type="search" id="site-search" placeholder="Buscar productos, marcas"></input>
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <p class="header_prommiseValue_text"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de
+      crédito</p>
+
+  </div>
+
+  <nav class="header_navbarLogin_container">
+    <ul class="header_navigationLinks">
+      <div class="header_navLinks_info">
+        <li class="header_navigationItems"><a href="#">Ofertas</a></li>
+        <li class="header_navigationItems"><a href="#">Tiendas Oficiales</a></li>
+        <li class="header_navigationItems"><a href="#">Vender</a></li>
+        <li class="header_navigationItems"><a href="#">Ayuda</a></li>
+      </div>
+      <div class="header_navLinks_loginOptions">
+        <li class="header_navigationItems"><a href="/registro">Creá tu cuenta </a> <i class="fas fa-address-card"></i> </li>
+        <li class="header_navigationItems"><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i> </a> <i
+            class="fas fa-sign-in"></i></li>
+        <li class="header_navigationItems"><a href="#">Mis compras <i class="fas fa-shopping-basket"></i> </a> <i
+            class="fas fa-bags-shopping"></i> </li>
+      </div>
+    </ul>
+  </nav>
+  <div class="burger-menu">
+    <button class="header_mobileMenu_button">
+      <i class="fas fa-bars" id="burger"></i> <i class="fa-solid fa-arrow-right-to-bracket"></i>
+    </button>
+
+  </div>
+
+</header>
+
+<body>
+
+
+  <form class="formulario-login"action="/login" method="POST">
+
+   
+    <input type="text" id="usuario" name="usuario" minlength="2" placeholder="Nombre de usuario"></input>
+
+
+    <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña"></input>
+
+
+    <button class="boton-volver">
+      <a href="/">Volver al inicio</a>
+    </button>
+
+    <button class="boton-enviar" type="submit">
+      Enviar
+    </button>
+
+  </form>
+
+</body>
+<footer>
+  <div class="footer-items">
+
+    <div class="Footersec">
+
+      <i class="fas fa-credit-card fa-2x"></i>
+      <h3>Pagá con tarjeta o en efectivo</h3>
+      <p>
+        Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
+        en puntos de pago. ¡Y siempre es seguro!
+      </p>
+    </div>
+
+    <div class="Footersec">
+      <i class="fas fa-gift icon-large fa-2x"></i>
+      <h3>Envío gratis desde $2.500</h3>
+      <p>
+        Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
+        de productos. Es un beneficio de Mercado Puntos
+      </p>
+
+    </div>
+
+    <div class="Footersec">
+      
+      <i class="fas fa-user-shield fa-2x"></i>
+      <h3>Seguridad, de principio a fin</h3>
+      <p>
+        ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+        hacer, porque estás siempre protegid@.
+      </p>
+    </div>
+
+    
+  </div>
+
+
+    <p>Copyright © 1999-2020 MercadoLiebre S.R</p>
+  </footer>
+
+</html>
